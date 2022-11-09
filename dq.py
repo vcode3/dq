@@ -1,5 +1,5 @@
 # dq.py
-
+import pandas as pd
 
 df1 = pd.read_csv('$path/dq1.csv')
 
