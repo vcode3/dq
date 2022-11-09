@@ -7,9 +7,9 @@ saved_column = df.city
 
 print (saved_column)
 
-df2 = pd.read_csv('D:/vaidehi-learnings/python/dq/domain_city.csv')
+df2 = pd.read_csv('$path/domain_city.csv')
 domainCity = df1.city #you can also use df['column_name']
 print (domainCity)
 
 isCityValid = df1.city.isin(df2.city).astype(str) 
-isCityValid.to_csv('D:/vaidehi-learnings/python/dq/domain_error.csv')
+isCityValid.to_csv('$path/domain_error.csv')
